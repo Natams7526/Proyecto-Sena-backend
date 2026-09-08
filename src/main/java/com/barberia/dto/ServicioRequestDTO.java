@@ -1,7 +1,6 @@
 package com.barberia.dto;
 
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import jakarta.validation.constraints.PositiveOrZero;
@@ -24,7 +23,7 @@ public class ServicioRequestDTO {
     @Positive(message = "El tiempo debe ser un valor positivo")
     private Integer tiempo;
 
-    @NotEmpty(message = "La lista de barberos no puede estar vacía")
+    
     private List<Long> barberos;
 
     public ServicioRequestDTO() {

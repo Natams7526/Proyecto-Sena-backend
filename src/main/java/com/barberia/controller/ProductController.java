@@ -3,7 +3,6 @@ package com.barberia.controller;
 import com.barberia.dto.ProductDTO;
 import com.barberia.dto.ProductResponseDTO;
 import com.barberia.service.ProductService;
-import com.barberia.util.ApiResponseUtil;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
